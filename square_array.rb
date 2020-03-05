@@ -1,5 +1,5 @@
-def square_array(numbers)
+def square_array(array)
   new_array = []
-  array.each {|square| new_array<< "#{square}**2"}
+  array.each |a| new_array<< a**2}
   new_array
   end

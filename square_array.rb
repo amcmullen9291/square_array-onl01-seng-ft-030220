@@ -3,4 +3,3 @@ def square_array(numbers)
   array.each {|square| new_array<< "#{square}**2"}
   new_array
   end
-end
